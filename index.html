@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Airlife Philippines</title>
+
+<style>
+
+/* Page style */
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#e6f0ff; /* light blue background */
+}
+
+/* Header */
+header{
+background:#0038a8;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+/* Navigation */
+nav{
+background:#ce1126;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+padding:14px 20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+background:#9c0e20;
+}
+
+/* Moving GIF Background */
+.hero{
+background-image:url("https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif");
+background-size:cover;
+background-position:center;
+height:70vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+/* Hero text */
+.hero h1{
+background:rgba(0,0,0,0.5);
+padding:20px;
+border-radius:10px;
+}
+
+/* Sections */
+section{
+padding:40px 20px;
+text-align:center;
+background:#dbe9ff; /* light blue instead of white */
+color:#002366;
+}
+
+/* Services */
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.box{
+background:#ffffff;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 0 8px rgba(0,0,0,0.2);
+border-top:5px solid #0038a8;
+}
+
+/* Footer */
+footer{
+background:#0038a8;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+/* Phone responsive */
+@media (max-width:600px){
+
+.hero{
+height:50vh;
+}
+
+.box{
+width:90%;
+}
+
+nav{
+flex-direction:column;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Airlife Philippines</h1>
+<p>Fly Across the Beautiful Philippines ✈️</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#flights">Flights</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- Home -->
+<div class="hero" id="home">
+<h1>Welcome On Board</h1>
+</div>
+
+<!-- About -->
+<section id="about">
+<h2>About Our Airline</h2>
+<p>We provide safe and comfortable flights across the Philippines.</p>
+</section>
+
+<!-- Flights -->
+<section id="flights">
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="box">
+<h3>Domestic Flights</h3>
+<p>Travel between Philippine islands easily.</p>
+</div>
+
+<div class="box">
+<h3>International Flights</h3>
+<p>Fly around the world.</p>
+</div>
+
+<div class="box">
+<h3>Online Booking</h3>
+<p>Book tickets anytime.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Email: airlinephilippines.com</p>
+<p>Phone: 09998328974</p>
+</section>
+
+<footer>
+<p>© 2026 Airlife Philippines</p>
+</footer>
+
+</body>
+</html>
